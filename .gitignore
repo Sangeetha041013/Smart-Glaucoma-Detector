@@ -1,0 +1,7 @@
+ 
+venv/
+data/
+models/
+*.h5
+*.pt
+*.pth

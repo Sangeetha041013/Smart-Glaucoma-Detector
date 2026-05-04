@@ -1,0 +1,21 @@
+============================================================
+DenseNet121 Evaluation Results
+============================================================
+
+Test Accuracy: 98.68%
+
+Confusion Matrix:
+[[1100   20]
+ [  18 1736]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    glaucoma     0.9839    0.9821    0.9830      1120
+non_glaucoma     0.9886    0.9897    0.9892      1754
+
+    accuracy                         0.9868      2874
+   macro avg     0.9863    0.9859    0.9861      2874
+weighted avg     0.9868    0.9868    0.9868      2874
+
+ROC-AUC Score: 0.9989

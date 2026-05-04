@@ -1,0 +1,21 @@
+============================================================
+ResNet50 Evaluation Results
+============================================================
+
+Test Accuracy: 98.09%
+
+Confusion Matrix:
+[[1089   31]
+ [  24 1730]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    glaucoma     0.9784    0.9723    0.9754      1120
+non_glaucoma     0.9824    0.9863    0.9844      1754
+
+    accuracy                         0.9809      2874
+   macro avg     0.9804    0.9793    0.9799      2874
+weighted avg     0.9809    0.9809    0.9809      2874
+
+ROC-AUC Score: 0.9978
